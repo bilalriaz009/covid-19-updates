@@ -12,7 +12,7 @@ const Header = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">
-          <img src="../img/corona.png" width="40px" height="40px"/>
+          <img src="../img/corona.png" width="40px" height="40px" alt="covid logo"/>
         </NavbarBrand>
           <NavbarText>Covid-19 Updates for Pakistan</NavbarText>
       </Navbar>
