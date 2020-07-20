@@ -1,4 +1,22 @@
+.red{
+    color: tomato;
+    font-size: large;
+    font-weight: bold;
+
+}
+
 .blue{
-    background-color: rgb(47, 0, 255);
-    color: white;
+    color: dodgerblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+.green{
+    color: limegreen;
+    font-size: large;
+    font-weight: bold;
+}
+.time{
+    font-size: xx-large;
+    font-weight: bold;
 }

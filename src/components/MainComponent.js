@@ -9,22 +9,19 @@ class Main extends Component {
       }
     }
     componentDidMount=()=> {
-      fetch("https://api.covid19api.com/summary")
+      fetch("https://corona.lmao.ninja/v2/countries/pakistan")
         .then(response => response.json())
         .then(data => {
           this.setState({
-            myData: data.Countries[126]
+            myData: data
           })
         })
-    }
-    getDate(date){
-        return(date.split("T")[0])
     }
 
     render(){
         if(this.state.myData){
             return(
-                <Info myData={this.state.myData} getDate={this.getDate}/>
+                <Info myData={this.state.myData}/>
             )
         }
         else{
