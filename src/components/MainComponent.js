@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import Info from './InfoComponent'
+import {Spinner} from 'reactstrap'
 class Main extends Component {
 
     constructor(props) {
@@ -25,7 +26,12 @@ class Main extends Component {
             )
         }
         else{
-            return(<div></div>)
+            return(
+              <div>
+                <center>
+                  <Spinner type="grow" color="light" style={{ width: '3rem', height: '3rem' }} />{' '}
+                </center>
+              </div>)
         }
         
     }
