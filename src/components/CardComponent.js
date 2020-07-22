@@ -31,6 +31,14 @@ function CardComponent(props){
                                         <td>New Cases Today</td>
                                         <td>{props.data.todayCases}</td>
                                         </tr>
+                                        <tr className="purple">
+                                        <td>Active Cases</td>
+                                        <td>{props.data.active}</td>
+                                        </tr>
+                                        <tr className="brown">
+                                        <td>Critical</td>
+                                        <td>{props.data.critical}</td>
+                                        </tr>
                                         <tr className="red">
                                         <td>Total Deaths</td>
                                         <td>{props.data.deaths}</td>
